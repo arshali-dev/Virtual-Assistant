@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny,My virtual assistant</title>
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="video-container">
+    <video autoplay muted loop id="background-video">
+        <source src="/2RNb.mp4" type="video/mp4">
+        <!-- Fallback message for unsupported browsers -->
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+    <img src="logo.jpg" alt="logo" id="logo">
+    <h1>I'm <span id="name">Jenny</span>,Your <span id="va">Virtual Assistant</span></h1>
+    <img src="voice.gif" alt="voice" id="voice">
+    <button id="btn"><img src="mic.svg" alt="mic"><span id="content"> Click here for talk to me</span> </button>
+    <audio id="song" src="singsong.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
